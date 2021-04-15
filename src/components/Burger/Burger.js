@@ -14,7 +14,7 @@ const burger = (props) => {
 		}, []);
 
 	if (transformedIngredients.length === 0) {
-		transformedIngredients = <p>Please start adding ingredients!</p>;
+		transformedIngredients = <p>Kuch daal toh bhai, sirf bread kaise khayega?</p>;
 	}
 
 	// console.log(transformedIngredients);
